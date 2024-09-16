@@ -1,0 +1,38 @@
+.sharing-section {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+.input-box {
+  width: 100%;
+  background-color: transparent;
+  border-color: #9ca3af;
+  height: 50vh;
+  color: #9ca3af;
+  border-radius: 20px;
+  border-width: 2px;
+  padding: 20px;
+}
+
+.process-card {
+  padding-bottom: 20px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.splitter-container {
+  width: 100%;
+}
+
+.subheader-text {
+  text-align: center;
+}
+
+.script-container {
+  text-align: center;
+}
+
