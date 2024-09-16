@@ -20,7 +20,6 @@
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
-- [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -35,8 +34,8 @@ qippx.xyz is a PHP Text Sharing Website with Bootstrap 5 Frontend and MySQL Data
 
 ## Features
 
-- ✅ Detect if a Channel starts a Livestream
-- ✅ Automatically Starts/Stops the Stream in OBS
+- ✅ PHP & Bootstrap
+- ✅ MySQL Database Connection
 
 ---
 
