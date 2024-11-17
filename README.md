@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Project Name
+# Paste Sharing Website (qippx.xyz)
 
 ![License](https://img.shields.io/github/license/massimo-rnd/paste-sharing-website)
 ![Issues](https://img.shields.io/github/issues/massimo-rnd/paste-sharing-website)
