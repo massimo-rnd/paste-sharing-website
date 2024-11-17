@@ -1,69 +1,100 @@
-![Repo-Image](https://druffko.gg/github-images/qippx.png)
+![Repo-Image](https://massimo.gg/github-images/qippx.webp)
 
 <div align="center">
 
-![PHP](https://img.shields.io/badge/PHP-7+-blue)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
+# Project Name
 
-![Stability](https://img.shields.io/badge/stability-production-darkgreen)
-![GitHub last commit](https://img.shields.io/github/last-commit/druffko/paste-sharing-website)
+![License](https://img.shields.io/github/license/massimo-rnd/paste-sharing-website)
+![Issues](https://img.shields.io/github/issues/massimo-rnd/paste-sharing-website)
+![Forks](https://img.shields.io/github/forks/massimo-rnd/paste-sharing-website)
+![Stars](https://img.shields.io/github/stars/massimo-rnd/paste-sharing-website)
+![Last Commit](https://img.shields.io/github/last-commit/massimo-rnd/paste-sharing-website)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/massimo-rnd/paste-sharing-website?include_prereleases)
 
-  <br>
-
-  ![GitHub closed issues](https://img.shields.io/github/issues-closed/druffko/paste-sharing-website)
-  ![GitHub issues](https://img.shields.io/github/issues/druffko/paste-sharing-website)
-  
-  <h1>Paste Sharing Website (qippx.xyz)</h1>
-  <p>
-    A PHP Text Sharing Website with Bootstrap 5 Frontend and MySQL Database connection<br>
-  </p>
 </div>
 
-## Table of Contents
-- [About](#about)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
-
-## About
+## 🚀 Overview
 
 qippx.xyz is a PHP Text Sharing Website with Bootstrap 5 Frontend and MySQL Database connection
 
+## 🎯 Features
+
+- PHP Backend
+- Bootstrap & JS Frontend
+- MySQL Database connection
+
+## 🛠️ Installation
+
+1. Clone the repository into your /var/www/ folder:
+   ```bash
+   cd /var/www/
+   git clone https://github.com/massimo-rnd/paste-sharing-website.git
+   ```
+2. Create a new Database:
+   ```mysql
+   CREATE DATABASE IF NOT EXISTS qippx;
+    USE qippx;
+    CREATE TABLE pastes (
+    id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    keylink VARCHAR(64) NOT NULL,
+    pastetext TEXT NOT NULL
+    );
+   ```
+3. Change Database credentials in api.php:
+    ```php
+    // Replace these values with your database connection details
+    $db_host = '';
+    $db_user = '';
+    $db_password = '';
+    $db_name = '';
+    ```
+4. Create new Apache Virtualhost config
+5. Visit your site
+
+## 💻 Usage
+
+Creating a new paste with qippx is simple. Just enter the text to be shared in the textbox and click "share".
+
+Your link to your paste is copied to your clipboard and will look like this:
+```bash
+https://yoururl.tld/view?[XXXXXX]
+```
+
+## 🚧 Roadmap
+
+- [ ] Create better design
+- [ ] Build Documentation
+
+Check out the [open issues](https://github.com/massimo-rnd/paste-sharing-website/issues) for more.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the [issues page](https://github.com/massimo-rnd/paste-sharing-website/issues).
+
+1. Fork the project.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📊 Repository Metrics
+
+![Repo Size](https://img.shields.io/github/repo-size/massimo-rnd/paste-sharing-website)
+![Contributors](https://img.shields.io/github/contributors/massimo-rnd/paste-sharing-website)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/massimo-rnd/paste-sharing-website)
+
 ---
 
-## Features
+### 📞 Contact
 
-- ✅ PHP & Bootstrap
-- ✅ MySQL Database Connection
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a pull request
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-- **druffko** - [@druffko](https://twitter.com/druffko) - hi@druffko.gg
-- **Project Link** - https://github.com/druffko/paste-sharing-website
-
-Feel free to reach out if you have any questions or suggestions!
-
----
+For any inquiries, feel free to reach out:
+- email: [hi@massimo.gg](mailto:hi@massimo.gg)
+- X: [massimo-rnd](https://x.com/massimo-rnd)
+- [Discord](https://discord.gg/wmC5AA6c)
