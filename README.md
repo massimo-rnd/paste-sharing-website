@@ -17,6 +17,11 @@
 
 qippx.xyz is a PHP Text Sharing Website with Bootstrap 5 Frontend and MySQL Database connection
 
+## ❗ IMPORTANT ❗
+Version 2.0 removed the "report paste" feature. This is due to the fact that I am abandoning this project and won't keep an eye on the reports anyways.
+
+Version 2.0 also marks the final version. In case anyone is interested in taking over this project, feel free to do so.
+
 ## 🎯 Features
 
 - PHP Backend
@@ -59,13 +64,6 @@ Your link to your paste is copied to your clipboard and will look like this:
 ```bash
 https://yoururl.tld/view?[XXXXXX]
 ```
-
-## 🚧 Roadmap
-
-- [ ] Create better design
-- [ ] Build Documentation
-
-Check out the [open issues](https://github.com/massimo-rnd/paste-sharing-website/issues) for more.
 
 ## 🤝 Contributing
 
