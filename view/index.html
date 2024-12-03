@@ -5,84 +5,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>View Paste - qippx</title>
-    <meta name="description" content="Share text fast and securely with qippx. No public records, only accessible via your individual link.">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png">
-    <link rel="icon" type="image/png" sizes="500x500" href="../assets/img/qippx.png">
+    <meta name="description" content="Looking for a quick and simple way to share text 100% anonymously?">
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/Inter.css">
-    <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../assets/css/Navbar-Right-Links-icons.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body onload="showPaste()">
-    <nav class="navbar navbar-expand-md bg-body py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-share" style="font-size: 15px;">
-                        <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"></path>
-                    </svg></span><span>qippx</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-2">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Anonymous Text-Sharing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://anonlinks.xyz">Link Anonymizer</a></li>
-                </ul>
+    <section class="card-container">
+        <div class="card">
+            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-send nav-icons">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 14l11 -11"></path>
+                        <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"></path>
+                    </svg>&nbsp;qippx - View Paste</span>
+                <div><a class="btn btn-sm btn-outline-light" role="button" style="border: none" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-x nav-icons">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M18 6l-12 12"></path>
+                            <path d="M6 6l12 12"></path>
+                        </svg></a></div>
             </div>
-        </div>
-    </nav>
-    <div class="script-container"><script type="text/javascript">
-	atOptions = {
-		'key' : '877108e507edf32f8b1777e0c29d00f3',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.topcreativeformat.com/877108e507edf32f8b1777e0c29d00f3/invoke.js"></script></div>
-    <section class="sharing-section">
-        <div class="card process-card">
             <div class="card-body">
-                <h4 class="card-title">Shared just for you.</h4>
+                <h4 class="card-title">Shared just for you.</h4><textarea id="text-input" class="input-box" readonly=""></textarea>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6"><textarea id="paste-text" class="input-box"></textarea><button class="btn btn-primary" type="button" onclick="copyCode()"><i class="far fa-copy"></i>&nbsp;Copy</button>
-                        <div><a href="/report">Report paste</a></div>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>Why is qippx so great?</h4>
-                        <h6 class="text-muted mb-2">We are 100% Anonymous. Not even we know who shared something.</h6>
-                        <h6 class="text-muted mb-2">The service is 100% free.</h6>
-                        <h6 class="text-muted mb-2">We will never record any IPs or anything else.</h6>
-                        <h4>How does it work?</h4>
-                        <h6 class="text-muted mb-2">It's pretty simple.<br>Enter your text on the left, hit the "Share" button and get a shareable link right to your clipboard.<br><br>Share the link and be happy.</h6><a class="btn btn-primary" role="button" href="/">Try it yourself</a>
-                    </div>
-                </div>
+            <div class="card-footer bg-light d-flex justify-content-between"><a class="btn btn-outline-secondary" role="button" href="https://github.com/massimo-rnd/paste-sharing-website"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-github nav-icons">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                    </svg>&nbsp;GitHub</a>
+                <div><button class="btn btn-outline-secondary me-2" type="button" onclick="copyCode()"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-copy nav-icons">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z"></path>
+                            <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1"></path>
+                        </svg>&nbsp;Copy</button><button class="btn action-btn" type="button">Try it yourself</button></div>
             </div>
         </div>
     </section>
-    <div class="script-container"><script type="text/javascript">
-	atOptions = {
-		'key' : '877108e507edf32f8b1777e0c29d00f3',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.topcreativeformat.com/877108e507edf32f8b1777e0c29d00f3/invoke.js"></script><script type='text/javascript' src='//pl24401070.cpmrevenuegate.com/8d/52/44/8d524406eac494a78cee496fa43442fc.js'></script>
-<script type='text/javascript' src='//pl24401080.cpmrevenuegate.com/8b/5f/fd/8b5ffd5dc19774094a76586489a9a7b5.js'></script></div>
-    <footer class="text-center">
-        <div class="container text-muted py-4 py-lg-5">
-            <hr>
-            <ul class="list-inline"></ul>
-            <p class="mb-0">Copyright © 2024 qippx.xyz</p>
-        </div>
-    </footer>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/submit.js"></script>
     <script src="../assets/js/tools.js"></script>
